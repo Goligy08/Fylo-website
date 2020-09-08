@@ -1,0 +1,423 @@
+// Ronan Goligy
+// 22/08/2020
+// Project 3 Fylo Landing Page
+
+@import 'variables';
+
+body{
+     background-color: $introblue;
+    //heading fonts
+    font-family: 'Raleway', sans-serif;
+    //body font
+    font-family: 'Open Sans', sans-serif;
+    //z-index: 0;
+}
+
+.main{
+
+
+    .header{
+       
+        
+        .logoimg{
+            width: 190px;
+            height: 50px;
+            margin-top: 60px;
+            margin-left: 70px;
+           // border: 2px solid yellow;
+        }
+
+      .navi{
+          width: 300px;
+          height: 40px;
+          margin-top: -60px;
+          margin-left: 1100px;
+          //border: 2px solid pink;
+          ul{
+              column-count: 3;
+
+          }
+          li{
+              list-style-type: none;
+              color: $white;
+              font-weight: 200;
+              cursor: pointer;
+          }
+      }
+
+      .mainimg{
+          width: 760px;
+          height: 550px;
+          margin-top: 50px;
+          margin-left: 300px;
+        //  border: 2px solid green;
+      }
+
+      .files{
+          width: 600px;
+          margin-left: 400px;
+          color: $white;
+          font-weight: 700;
+          font-size: 24pt;
+         // border: 2px solid red;
+         
+      }
+
+      .stores{
+          width: 500px;
+          margin-top: -20px;
+          margin-left: 450px;
+         // border: 2px solid orange;
+          color: $white;
+        
+      }
+
+      .start{
+          width: 280px;
+          height: 60px;
+          border: none;
+          outline: none;
+          border-radius: 50px;
+          color: $white;
+          cursor: pointer;
+          background-color: $blue;
+          margin-left: 550px;
+         
+      }
+
+     
+
+    }
+   
+    .bio{
+     
+        background-color: $bgblue;
+        .articles{
+            width: 800px;
+            height: 700px;
+            margin-left: 300px;
+            margin-top: -5px;
+           //border: 2px solid white;
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+
+           h5{
+               color: $white;
+               margin-left: 70px;
+               font-weight: 700;
+               font-size: 12pt;
+           }
+
+           p{
+               color: $white;
+               font-size: 10pt;
+               font-weight: 200;
+           }
+        }
+        .row1{
+            width: 800px;
+            height: 300px;
+           // border: 2px solid lightgreen;
+            order: 1;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        
+        }
+        .access{
+            width: 350px;
+            height: 230px;
+           // border: 2px solid yellow;
+            order: 1;
+
+            .anywhere{
+                margin-left: 120px;
+            }
+
+        }
+        .security{
+            width: 350px;
+            height: 230px;
+          //  border: 2px solid lightblue;
+            order: 2;
+
+            .secur{
+                margin-left: 120px;
+            }
+
+        }
+        .row2{
+            width: 800px;
+            height: 300px;
+           // border: 2px solid coral;
+            order: 2;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .collab{
+            width: 350px;
+            height: 230px;
+           // border: 2px solid red;
+            order: 1;
+
+            .coll{
+                margin-left: 120px;
+            }
+
+        }
+        .store{
+            width: 350px;
+            height: 230px;
+          // border: 2px solid white;
+           order: 1;
+
+           .file{
+               margin-left: 120px;
+           }
+
+        }
+        
+        
+    }
+
+    .productive{
+        background-color: $bgblue;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .productiveimg{
+            width: 630px;
+            height: 480px;
+         //   border: 2px solid lightblue;
+            order: 1;
+        }
+
+        .productxt{
+            width: 550px;
+            height: 300px;
+            margin-top: 100px;
+           // border: 2px solid lightgreen;
+            order: 2;
+
+            h1{
+                color: $white;
+            }
+
+            p{
+                color: $white;
+            }
+            a{
+                color: $cyan;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+
+        }
+    }
+
+    .testimonials{
+        background-color: $bgblue;
+
+        .reviews{
+            width: 1200px;
+            height: 260px;
+            margin-top: 150px;
+            margin-left: 150px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+           // border: 2px solid yellow;
+
+
+            .satish{
+                background-color: $testblue;
+                width: 360px;
+                height: 240px;
+                color: $white;
+               // border: 2px solid $white;
+                order: 1;
+
+                .profile1{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 65%;
+                }
+
+            }
+
+            .bruce{
+                background-color: $testblue;
+                width: 360px;
+                height: 240px;
+                color: $white;
+                order: 2;
+               // border: 2px solid $white;
+
+                .profile2{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 65%;
+                }
+                
+            }
+
+            .iva{
+                background-color: $testblue;
+                width: 360px;
+                height: 240px;
+                color: $white;
+                order: 3;
+               // border: 2px solid $white;
+
+                .profile3{
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 65%;
+                }
+            }
+           
+        }
+        .access{
+            background-color: $testblue;
+            width: 860px;
+            height: 260px;
+            margin-top: 200px;
+            margin-left: 300px;
+            border-radius: 10px;
+           // border: 2px solid red;
+            
+
+            h1{
+                color: $white;
+                font-size: 24pt;
+                font-weight: 400;
+                margin-left: 250px;
+              //   margin-top: 100px;
+            }
+            p{
+              color: $white;
+            }
+            #email{
+                width: 500px;
+                height: 50px;
+                border: none;
+                margin-left: 50px;
+                border-radius: 50px;
+                background-color: $white;
+            }
+
+            .free{
+                width: 200px;
+                height: 60px;
+                border: none;
+                outline: none;
+                color: $white;
+                cursor: pointer;
+                background-color: $blue;
+                border-radius: 40px;
+            }
+        }
+    }
+}
+.footer{
+    width: 1440px;
+    height: 400px;
+    background-color: $ftblue;
+   // border: 2px solid white;
+    color: $white;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    .info{
+        width: 400px;
+        height: 400px;
+       // border: 2px solid green;
+       // margin-top: 50px;
+        margin-left: 100px;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ftlogo{
+        width: 200px;
+        height: 60px;
+       // border: 2px solid blue;
+        order: 1;
+        
+    }
+
+    p{
+        
+        order: 2;
+        
+    }
+
+    .contact{
+        width: 200px;
+        height: 60px;
+        margin-top: 200px;
+        cursor: pointer;
+       // border: 2px solid orange;
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .phone{
+            order: 1;
+        }
+
+        .email{
+            order: 2;
+        }
+    }
+
+
+   
+    .list{
+        order: 3;
+        width: 300px;
+        height: 200px;
+        margin-top: 200px;
+      //  border: 2px solid red;
+
+       
+    }
+    ul{
+        column-count: 2;
+    }
+
+    li{
+        cursor: pointer;
+        list-style-type: none;
+        color: $white;
+        padding: 10px;
+        font-weight: 200;
+       
+    }
+    .social{
+        cursor: pointer;
+        width: 200px;
+        height: 60px;
+        margin-top: 200px;
+       // margin-left: 150px;
+       // border: 2px solid blue;
+         order: 4;
+
+         i{
+             font-size: 22pt;
+             letter-spacing: 10px;
+         }
+    }
+}
